@@ -1,6 +1,6 @@
-# HDL labs
+# HDL Design and Verification Collection
 
-A collection of Verilog/SystemVerilog exercises from my digital-design coursework. Each project keeps its RTL, testbench, and simulation entry point together.
+The original collection of six Verilog/SystemVerilog designs covering arithmetic, APB and AHB-Lite memory interfaces, cache lookup, and VGA timing. Each project keeps its RTL, testbench, simulation entry point, and available evidence together.
 
 - [Eight-operation ALU](projects/alu/README.md)
 - [APB RAM with a SystemVerilog interface](projects/apb-interface/README.md)
@@ -9,7 +9,7 @@ A collection of Verilog/SystemVerilog exercises from my digital-design coursewor
 - [Two-way set-associative cache](projects/two-way-cache/README.md)
 - [VGA controller with SRAM framebuffer](projects/vga-sram/README.md)
 
-These six exercises were located in the available source folders. The remaining tasks from the planned set of roughly 16 have not been identified yet.
+The six source projects listed above form this collection. Their standalone versions document subsequent packaging and verification work separately.
 
 Four testbenches passed their supplied checks with ModelSim Starter. Two require
 a Questa verification license. See [validation results](VALIDATION.md) for the
